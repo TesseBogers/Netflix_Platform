@@ -1,0 +1,30 @@
+.row {
+    margin-left: 20px;
+    color: black;
+}
+
+.row__items {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+
+.row__items::-webkit-scrollbar {
+    width: 10px;
+}
+
+.row__items::-webkit-scrollbar-track {
+    background-color: #f8d1f8;
+}
+
+.row__items::-webkit-scrollbar-thumb {
+    background-color: #f8f6f8;
+    border-radius: 10px;
+    border: 6px solid transparent;
+    background-clip: padding-box;
+}
+
+.row__items::-webkit-scrollbar-thumb:hover {
+    background-color: white;
+}

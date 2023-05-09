@@ -1,0 +1,14 @@
+.banner {
+    object-fit: contain;
+    height: 200px;
+    padding-top: 28rem;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #f3dcf3;
+}
+
+
+
+
